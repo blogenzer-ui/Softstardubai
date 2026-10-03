@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Renovation &amp; Fit-out in Dubai | Soft Star</title>
+<meta name="description" content="Property renovation, interior and exterior design, tiling, paving and masonry for villas across Dubai, by Soft Star Technical &amp; Landscape LLC.">
+<link rel="icon" type="image/png" href="logo-softstar-96.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Jost:wght@300;400;500;600&family=Marcellus&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+:root{--sandbg:#ECE7DA}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){--sandbg:#15221E} }
+:root[data-theme="dark"]{--sandbg:#15221E}
+.ren-hero{background:var(--sandbg);padding:72px 0 88px}
+.ren-hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
+.ren-hero h1{font-size:calc(clamp(2.4rem,4.7vw,4.1rem) * var(--h1-scale));line-height:1.08}
+html[lang="ur"] .ren-hero h1{line-height:1.7}
+.ren-hero .sub{margin-top:20px;color:var(--muted);max-width:46ch;font-size:1.06rem}
+.ren-hero .cta{margin-top:30px;display:flex;flex-wrap:wrap;gap:12px}
+.collage{position:relative;aspect-ratio:1/1.02}
+.collage figure{margin:0;overflow:hidden;position:absolute;background:var(--line)}
+.collage img{width:100%;height:100%;object-fit:cover}
+.collage .c1{top:0;inset-inline-end:0;width:84%;aspect-ratio:4/3.1}
+.collage .c2{bottom:0;inset-inline-start:0;width:50%;aspect-ratio:3/4;border:8px solid var(--sandbg);box-sizing:content-box;margin:0}
+.ren-head{max-width:620px;margin-bottom:52px}
+.ren-head h2{font-size:clamp(1.9rem,3.1vw,2.9rem);line-height:1.15}
+html[lang="ur"] .ren-head h2{line-height:1.7}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:52px 44px}
+.grid3 > div{border-top:2px solid var(--sand);padding-top:20px}
+.grid3 h3{font-family:var(--f-body);font-size:1.18rem;font-weight:600}
+.grid3 p{margin-top:8px;color:var(--muted);max-width:34ch}
+.hs-top{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:28px}
+.hs-top h2{font-size:clamp(1.9rem,3.1vw,2.9rem);line-height:1.15}
+html[lang="ur"] .hs-top h2{line-height:1.7}
+.hs-top p{color:var(--muted);margin-top:8px;max-width:48ch}
+.hs-btns{display:flex;gap:10px;flex:none}
+.hs-btns button{width:46px;height:46px;border:1px solid var(--ink);background:transparent;color:var(--ink);border-radius:50%;font-size:20px;cursor:pointer}
+.hs-btns button:hover{background:var(--ink);color:var(--bg)}
+[dir="rtl"] .hs-btns button{scale:-1 1}
+.hscroll{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:14px;scrollbar-width:thin}
+.hscroll .tile{flex:0 0 min(78%,400px);aspect-ratio:4/5;margin:0;scroll-snap-align:start}
+.hscroll .tile img{width:100%;height:100%;object-fit:cover}
+@media (max-width:1000px){
+  .ren-hero{padding:48px 0 56px}
+  .ren-hero .wrap{grid-template-columns:1fr;gap:44px}
+  .collage{max-width:520px;width:100%;margin-inline:auto}
+  .grid3{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:700px){
+  .grid3{grid-template-columns:1fr;gap:34px}
+  .hs-top{flex-direction:column;align-items:flex-start}
+  .hscroll .tile{flex-basis:78%}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Soft Star"><img src="logo-softstar-420.png" alt="Soft Star"></a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <!-- Links go to Home sections for now; they will point to their own pages once those are built. -->
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="landscaping.html" data-i18n="nav.landscaping">Landscaping</a>
+      <a href="pools.html" data-i18n="nav.pools">Pools</a>
+      <a href="renovation.html" aria-current="page" data-i18n="nav.renovation">Renovation</a>
+      <a href="projects.html" data-i18n="nav.projects">Projects</a>
+      <a class="btn hide-d" href="contact.html" data-i18n="nav.contact" style="display:none">Contact</a>
+    </nav>
+    <div class="tools">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ur" lang="ur" aria-pressed="false">اردو</button>
+        <button type="button" data-lang="ar" lang="ar" aria-pressed="false">عربي</button>
+      </div>
+      <a class="btn hide-m" href="contact.html" data-i18n="nav.contact">Contact</a>
+      <a class="home-ico" href="index.html" data-i18n-label="nav.home" aria-label="Home"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9.5h13V10"/><path d="M10 19.5v-5h4v5"/></svg></a>
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="ren-hero">
+    <div class="wrap">
+      <div>
+        <svg class="swoosh" viewBox="0 0 150 18" aria-hidden="true">
+        <defs><linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#3B9FD8"/><stop offset="1" stop-color="#B9935A"/></linearGradient></defs>
+        <path d="M2 13 C 30 -2, 58 -2, 84 8 S 128 16, 148 4"/>
+      </svg>
+        <h1 data-i18n="ren.h1">Renovation, from first plan to final finish.</h1>
+        <p class="sub" data-i18n="ren.sub">Villas and homes renovated inside and out, with design, tiling, paving and masonry handled by one team.</p>
+        <div class="cta">
+          <a class="btn wa" href="https://wa.me/971507698722" data-i18n="hero.cta1">Request a quote</a>
+          <a class="btn ghost" href="#projects" data-i18n="hero.cta2">See our work</a>
+        </div>
+      </div>
+      <div class="collage">
+        <figure class="c1"><img src="tiles-work.jpg" alt="Our team laying large porcelain tiles" data-i18n-alt="svc3.alt" width="894" height="740"></figure>
+        <figure class="c2"><img src="c-63.jpg" alt="Outdoor sitting area under a louvred pergola at night" data-i18n-alt="ren.a2" width="480" height="854"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="ren-head"><h2 data-i18n="ren.inc.title">What we take on</h2></div>
+      <div class="grid3">
+        <div><h3 data-i18n="ren.r1.t">Property renovation</h3><p data-i18n="ren.r1.p">Updating villas and homes, inside and out, to the look you have in mind.</p></div>
+          <div><h3 data-i18n="ren.r2.t">Interior and exterior design</h3><p data-i18n="ren.r2.p">Design for inside and outside spaces, so the finished result matches what you imagined.</p></div>
+          <div><h3 data-i18n="ren.r3.t">Tiling and paving</h3><p data-i18n="ren.r3.p">Porcelain, stone and tile floors for terraces, paths and outdoor areas.</p></div>
+          <div><h3 data-i18n="ren.r4.t">Masonry and walls</h3><p data-i18n="ren.r4.p">Block walls and masonry work, built to line and finished cleanly.</p></div>
+          <div><h3 data-i18n="ren.r5.t">Terraces and outdoor living</h3><p data-i18n="ren.r5.p">Built-in seating, shaded areas and terraces designed to be used.</p></div>
+          <div><h3 data-i18n="ren.r6.t">Final finishing</h3><p data-i18n="ren.r6.p">Careful finishing at the end, so the space is ready to use.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects" style="padding-top:12px">
+    <div class="wrap">
+      <div class="hs-top">
+        <div>
+          <h2 data-i18n="ren.gal.title">Renovation and finishing</h2>
+          <p data-i18n="ren.gal.intro">Terraces, paving and outdoor living areas completed for villas across Dubai.</p>
+        </div>
+        <div class="hs-btns">
+          <button type="button" id="hsp" aria-label="Previous">&#8249;</button>
+          <button type="button" id="hsn" aria-label="Next">&#8250;</button>
+        </div>
+      </div>
+      <div class="hscroll" id="gallery">
+        <button class="tile " type="button"><img src="landscape-villa.jpg" alt="Villa garden with sandstone paving, a bench and lantern" data-i18n-alt="svc1.alt" loading="lazy"></button>
+        <button class="tile " type="button"><img src="sandstone-steps.jpg" alt="Sandstone stepping stones and white pebble beds" data-i18n-alt="ren.a5" loading="lazy"></button>
+        <button class="tile " type="button"><img src="fountain.jpg" alt="Tiled fountain and water channel" data-i18n-alt="g5.alt" loading="lazy"></button>
+        <button class="tile " type="button"><img src="turf-pavers.jpg" alt="Artificial turf with white paving slabs" data-i18n-alt="g4.alt" loading="lazy"></button>
+        <button class="tile " type="button"><img src="slate-fountain.jpg" alt="Stone path, white pebble beds and a slate fountain" data-i18n-alt="g1.alt" loading="lazy"></button>
+        <button class="tile " type="button"><img src="c-45.jpg" alt="Terrace and pool edge beside a lit garden at night" data-i18n-alt="ren.a4" loading="lazy"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="contact">
+    <div class="wrap">
+      <svg class="swoosh" viewBox="0 0 150 18" aria-hidden="true">
+        <defs><linearGradient id="sw2" x1="0" x2="1"><stop offset="0" stop-color="#3B9FD8"/><stop offset="1" stop-color="#C9A468"/></linearGradient></defs>
+        <path d="M2 13 C 30 -2, 58 -2, 84 8 S 128 16, 148 4" style="stroke:url(#sw2)"/>
+      </svg>
+      <h2 data-i18n="cta.title">Planning a garden, pool or renovation?</h2>
+      <p data-i18n="cta.text">Send us a message with a few photos and we will get back to you.</p>
+      <a class="btn wa" href="https://wa.me/971507698722" data-i18n="cta.btn">Message us on WhatsApp</a>
+    </div>
+  </section>
+  <script>
+  (function(){
+    var s=document.getElementById("gallery");
+    function go(d){var rtl=document.documentElement.dir==="rtl";s.scrollBy({left:d*(rtl?-1:1)*Math.round(s.clientWidth*0.8),behavior:"smooth"});}
+    document.getElementById("hsn").addEventListener("click",function(){go(1);});
+    document.getElementById("hsp").addEventListener("click",function(){go(-1);});
+  })();
+  </script>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="foot-logo" href="index.html" aria-label="Soft Star"><img src="logo-softstar-420.png" alt="Soft Star"></a>
+        <p data-i18n="foot.line">Landscaping, pools and renovation in Dubai.</p>
+      </div>
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="landscaping.html" data-i18n="nav.landscaping">Landscaping</a></li>
+        <li><a href="pools.html" data-i18n="nav.pools">Pools</a></li>
+        <li><a href="renovation.html" aria-current="page" data-i18n="nav.renovation">Renovation</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+      </ul>
+      <ul>
+        <li><a class="" href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        <li><a href="https://www.instagram.com/softstardubai/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+    <div class="legal">&copy; <span data-year>2026</span> Soft Star Technical &amp; Landscape LLC</div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="x" type="button" id="lbx" aria-label="Close">&times;</button>
+  <button class="p" type="button" id="lbp" aria-label="Previous">&#8249;</button>
+  <img id="lbimg" alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+  <button class="n" type="button" id="lbn" aria-label="Next">&#8250;</button>
+</div>
+
+<script>window.PAGE_I18N={
+ "en": {
+  "title": "Renovation & Fit-out in Dubai | Soft Star",
+  "ren.h1": "Renovation, from first plan to final finish.",
+  "ren.sub": "Villas and homes renovated inside and out, with design, tiling, paving and masonry handled by one team.",
+  "ren.inc.title": "What we take on",
+  "ren.r1.t": "Property renovation",
+  "ren.r1.p": "Updating villas and homes, inside and out, to the look you have in mind.",
+  "ren.r2.t": "Interior and exterior design",
+  "ren.r2.p": "Design for inside and outside spaces, so the finished result matches what you imagined.",
+  "ren.r3.t": "Tiling and paving",
+  "ren.r3.p": "Porcelain, stone and tile floors for terraces, paths and outdoor areas.",
+  "ren.r4.t": "Masonry and walls",
+  "ren.r4.p": "Block walls and masonry work, built to line and finished cleanly.",
+  "ren.r5.t": "Terraces and outdoor living",
+  "ren.r5.p": "Built-in seating, shaded areas and terraces designed to be used.",
+  "ren.r6.t": "Final finishing",
+  "ren.r6.p": "Careful finishing at the end, so the space is ready to use.",
+  "ren.gal.title": "Renovation and finishing",
+  "ren.gal.intro": "Terraces, paving and outdoor living areas completed for villas across Dubai.",
+  "ren.a2": "Outdoor sitting area under a louvred pergola at night",
+  "ren.a4": "Terrace and pool edge beside a lit garden at night",
+  "ren.a5": "Sandstone stepping stones and white pebble beds"
+ },
+ "ur": {
+  "title": "دبئی میں رینوویشن اور فِٹ آؤٹ | سافٹ اسٹار",
+  "ren.h1": "رینوویشن، پہلے منصوبے سے آخری فنشنگ تک۔",
+  "ren.sub": "ولاز اور گھروں کی اندر اور باہر سے رینوویشن، ڈیزائن، ٹائلنگ، فرش بندی اور چنائی ایک ہی ٹیم کے ہاتھوں۔",
+  "ren.inc.title": "ہم کون سے کام کرتے ہیں",
+  "ren.r1.t": "پراپرٹی رینوویشن",
+  "ren.r1.p": "ولاز اور گھروں کی اندر اور باہر سے تجدید، آپ کی سوچ کے مطابق۔",
+  "ren.r2.t": "اندرونی اور بیرونی ڈیزائن",
+  "ren.r2.p": "اندر اور باہر کی جگہوں کا ڈیزائن، تاکہ تیار نتیجہ آپ کے تصور کے مطابق ہو۔",
+  "ren.r3.t": "ٹائلنگ اور فرش بندی",
+  "ren.r3.p": "ٹیرس، راستوں اور بیرونی حصوں کے لیے پورسلین، پتھر اور ٹائل کے فرش۔",
+  "ren.r4.t": "چنائی اور دیواریں",
+  "ren.r4.p": "بلاک کی دیواریں اور چنائی کا کام، سیدھ اور صاف فنشنگ کے ساتھ۔",
+  "ren.r5.t": "ٹیرس اور بیرونی نشست گاہیں",
+  "ren.r5.p": "بلٹ اِن نشستیں، سایہ دار حصے اور ٹیرس جو استعمال کے لیے بنائے جاتے ہیں۔",
+  "ren.r6.t": "آخری فنشنگ",
+  "ren.r6.p": "آخر میں باریک بینی سے فنشنگ، تاکہ جگہ استعمال کے لیے تیار ہو۔",
+  "ren.gal.title": "رینوویشن اور فنشنگ",
+  "ren.gal.intro": "دبئی بھر کے ولاز کے لیے مکمل کیے گئے ٹیرس، فرش اور بیرونی نشست گاہیں۔",
+  "ren.a2": "رات کے وقت لوور والے پرگولا کے نیچے بیرونی نشست گاہ",
+  "ren.a4": "رات کو روشن باغ کے ساتھ ٹیرس اور پول کا کنارہ",
+  "ren.a5": "سینڈ اسٹون کے قدم دان اور سفید کنکروں کی کیاریاں"
+ },
+ "ar": {
+  "title": "التجديد والتشطيبات في دبي | سوفت ستار",
+  "ren.h1": "تجديد، من الخطة الأولى حتى اللمسة الأخيرة.",
+  "ren.sub": "تجديد الفلل والمنازل من الداخل والخارج، مع التصميم والتبليط والأرضيات وأعمال البناء بيد فريق واحد.",
+  "ren.inc.title": "الأعمال التي نتولاها",
+  "ren.r1.t": "تجديد العقارات",
+  "ren.r1.p": "تحديث الفلل والمنازل من الداخل والخارج بما يتوافق مع تصورك.",
+  "ren.r2.t": "التصميم الداخلي والخارجي",
+  "ren.r2.p": "تصميم للمساحات الداخلية والخارجية ليأتي الناتج النهائي كما تخيلته.",
+  "ren.r3.t": "التبليط والأرضيات",
+  "ren.r3.p": "أرضيات من البورسلين والحجر والبلاط للتراسات والممرات والمساحات الخارجية.",
+  "ren.r4.t": "أعمال البناء والجدران",
+  "ren.r4.p": "جدران من البلوك وأعمال بناء، تُنفَّذ باستقامة وتشطيب نظيف.",
+  "ren.r5.t": "التراسات والجلسات الخارجية",
+  "ren.r5.p": "مقاعد مدمجة ومساحات مظللة وتراسات مصممة للاستخدام الفعلي.",
+  "ren.r6.t": "التشطيب النهائي",
+  "ren.r6.p": "تشطيب دقيق في النهاية لتكون المساحة جاهزة للاستخدام.",
+  "ren.gal.title": "التجديد والتشطيب",
+  "ren.gal.intro": "تراسات وأرضيات ومساحات معيشة خارجية أُنجزت لفلل في أنحاء دبي.",
+  "ren.a2": "جلسة خارجية تحت برجولة بشرائح ليلًا",
+  "ren.a4": "تراس وحافة مسبح بجانب حديقة مضاءة ليلًا",
+  "ren.a5": "أحجار رملية للمشي وأحواض بحصى أبيض"
+ }
+};</script>
+<script src="app.js"></script>
+</body>
+</html>
